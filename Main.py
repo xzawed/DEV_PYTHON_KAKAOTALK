@@ -4,7 +4,7 @@ from mysql import *
 
 DB = MYSQL
 url = 'https://kauth.kakao.com/oauth/token'
-client_id = 'ec2deb9be739941963ba16a68fb2d3ed'
+client_id = '80a5b2bd85b513d07198e52e8e192875'
 redirect_uri = 'https://example.com/oauth'
 code = DB.selmysql(self=DB, opt='TOKEN', data=('KAKAO', '80a5b2bd85b513d07198e52e8e192875'))
 
